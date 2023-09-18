@@ -1,3 +1,3 @@
 # TexturePack
 
-"A cunified download link for a Texture Pack..."
+"A unified download link for a Texture Pack..."
