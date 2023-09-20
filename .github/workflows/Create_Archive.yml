@@ -22,7 +22,6 @@ jobs:
     - name: push changes to remote
       run: |
 
-        git config --global --unset https.proxy
         git add -A
-        git commit -a -m "Hello"
-        git push -f
+        git commit -m "Hello"
+        git push --force-with-lease
