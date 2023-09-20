@@ -23,5 +23,5 @@ jobs:
       run: |
 
         git add -A
-        git commit -m "new pack"
-        git push origin TexturePack -f
+        git commit -a "new pack"
+        git push -f
