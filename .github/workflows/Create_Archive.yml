@@ -8,7 +8,6 @@ jobs:
       uses: actions/checkout@master
     - name: pull latest and remove old file from repo
       run: |
-        git config --globa
         git config --global user.name "Friendtaliy"
         git config --global user.email "Friendtaliy@gmail.com"
         git config pull.rebase false
