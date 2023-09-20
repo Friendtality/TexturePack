@@ -23,5 +23,5 @@ jobs:
       run: |
 
         git add -A
-        git commit -a "new pack"
+        git commit -a
         git push -f
