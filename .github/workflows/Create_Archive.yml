@@ -21,6 +21,7 @@ jobs:
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: push changes to remote
       run: |
+        git update-index --chmod=+x
         git add -A
         git commit -m "new pack"
         git push --force
