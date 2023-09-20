@@ -23,5 +23,5 @@ jobs:
       run: |
 
         git add -A
-        git commit -a
+        git commit -a -m "Hello"
         git push -f
